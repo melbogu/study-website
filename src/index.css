@@ -22,7 +22,7 @@
     flex-direction: column;
     font-size: 70px;
     font-weight: 600;
-    background-image: linear-gradient(to left, #11e4d2, #91d4c7);
+    background-image: linear-gradient(to right, #8671b4, #91d4c7);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -36,6 +36,48 @@
     gap: 32px;
     align-items: center;
     padding-left: 30vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-space {
+    display: flex;
+    gap: 32px;
+}
+.navbar-color {
+    background-color:  #91d4c7;
+}
+.carousel {
+    width: 400px;
+    height: 280px;
+}
+.progress-bar {
+    color: black;
+    background-color:  #91d4c7;
+}
+.button {
+    background-color: #8671b4;
+    border-color: #8671b4;
+    /* color: black; */
+}
+.button:hover {
+    background-color: #6641b5;
+    border-color: #6641b5;
+}
+.button:active {
+    color: #6641b5;
+    /* background-color: #6641b5;
+    border-color: #6641b5; */
+}
+.profile-pic {
+    width: 300px;
+    height: 200px;
+}
+.center {
+    align-items: center;
+}
+.container-dashboard {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /* For mobile phones */
 @media (max-width: 850px) {

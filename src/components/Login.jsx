@@ -23,7 +23,7 @@ export default function Login() {
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
             </Form.Group>
-            <Button variant="primary" type="submit" onClick={onLogin}>
+            <Button className="button" type="submit" onClick={onLogin}>
                 Login
             </Button>
             <Link className="link-padding" to="/signUp">New here? Sign up</Link>
